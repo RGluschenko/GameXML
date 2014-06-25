@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Location xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <children>
+    <Location>
+      <children />
+      <LevelText>Вы ушли и спокойно добрались домой</LevelText>
+      <EnterText>Выйти из комнаты</EnterText>
+      <result>end</result>
+    </Location>
+    <Location>
+      <children>
+        <Location>
+          <children />
+          <LevelText>Вы ушли и спокойно добрались домой</LevelText>
+          <EnterText>Выйти из комнаты</EnterText>
+          <result>end</result>
+        </Location>
+        <Location>
+          <children />
+          <LevelText>Своей выходкой вы не на шутку разозлили Гену и стали его обедом.</LevelText>
+          <EnterText>Ткнуть крокодила пальцев в глаз</EnterText>
+          <result>end</result>
+        </Location>
+      </children>
+      <LevelText>В басейне сидит и смотрит на вас огромный крокодил.</LevelText>
+      <EnterText>Подойти к басейну</EnterText>
+    </Location>
+  </children>
+  <LevelText>Вы в комнате с бассейном по центру, в котором сидит крокодил</LevelText>
+</Location>

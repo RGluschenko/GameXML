@@ -1,0 +1,6 @@
+c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\bin\Debug\GameXML.exe.config
+c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\bin\Debug\GameXML.exe
+c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\bin\Debug\GameXML.pdb
+c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\obj\Debug\GameXML.csprojResolveAssemblyReference.cache
+c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\obj\Debug\GameXML.exe
+c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\obj\Debug\GameXML.pdb

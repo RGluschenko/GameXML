@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Location xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <children>
+    <Location>
+      <children />
+      <LevelText>This is 1 child!</LevelText>
+      <EnterText>Go 1</EnterText>
+    </Location>
+    <Location>
+      <children>
+        <Location>
+          <children>
+
+            <Location>
+
+              <children />
+              <LevelText>This is 6 child!</LevelText>
+              <EnterText>Go 6</EnterText>
+            </Location>
+          </children>
+          <children />
+          <LevelText>This is 5 child!</LevelText>
+          <EnterText>Go 5</EnterText>
+        </Location>
+      </children>
+      <LevelText>This is 2 child!</LevelText>
+      <EnterText>Go 2</EnterText>
+    </Location>
+    <Location>
+      <children />
+      <LevelText>This is 3 child!</LevelText>
+      <EnterText>Go 3</EnterText>
+    </Location>
+    <Location>
+      <children />
+      <LevelText>This is 4 child!</LevelText>
+      <EnterText>Go 4</EnterText>
+    </Location>
+  </children>
+  <LevelText>Вы проснулись с утра. </LevelText>
+</Location>
