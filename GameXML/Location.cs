@@ -15,6 +15,10 @@ namespace GameXML
     public class Location
     {
         /// <summary>
+        /// Локация из которой осуществен переход.
+        /// </summary>
+        private Location parent;
+        /// <summary>
         /// Список локаций, в которые можно перейти из текущей.
         /// </summary>
         public List<Location> children;
@@ -26,6 +30,9 @@ namespace GameXML
         /// Текст, который выводится в вариантах перхода.
         /// </summary>
         public string EnterText;
+        /// <summary>
+        /// Определяет тип финишной локации(победа, смерть).
+        /// </summary>
         public string result;
         /// <summary>
         /// Метод, выводящий всю текстовую информацию в консоль.
@@ -39,10 +46,19 @@ namespace GameXML
             {
                 Console.WriteLine("{0} - {1}", i, children[i].EnterText);
             }
-            Console.WriteLine();
-            if (this.result == "end")
+            if (this.parent!=null &&result==null)
             {
-                Console.WriteLine("Game over!");
+                Console.WriteLine("{0} - {1}", "9", "Вернуться в предидущую локацию.");
+            }
+            Console.WriteLine();
+            if (this.result == "win")
+            {
+                Console.WriteLine("Вы победили=)");
+                Console.ReadLine();
+            }
+            else if (this.result == "dead")
+            {
+                Console.WriteLine("Вы мертвы=(");
                 Console.ReadLine();
             }
             else ChooseNewLocation();
@@ -56,7 +72,15 @@ namespace GameXML
             try
             {
                 int variant = Int32.Parse(Console.ReadLine());
-                children[variant].PlayLocation();
+                if (variant == 9)
+                {
+                    parent.PlayLocation();
+                }
+                else {
+                    children[variant].parent = this;
+                    children[variant].PlayLocation();
+
+                }
             }
             catch (Exception)
             {
@@ -72,6 +96,7 @@ namespace GameXML
         public void GetChild(Location child)
         {
             children.Add(child);
+            //child.parent = this;
         }
         /// <summary>
         /// Конструктор, создающий обьект спика дочерних локаций.

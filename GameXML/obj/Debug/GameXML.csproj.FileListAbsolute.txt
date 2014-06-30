@@ -4,3 +4,9 @@ c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\bin\Debug\G
 c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\obj\Debug\GameXML.csprojResolveAssemblyReference.cache
 c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\obj\Debug\GameXML.exe
 c:\users\roman\documents\visual studio 2013\Projects\GameXML\GameXML\obj\Debug\GameXML.pdb
+C:\Users\Roman\Documents\GitHub\GameXML\GameXML\bin\Debug\GameXML.exe.config
+C:\Users\Roman\Documents\GitHub\GameXML\GameXML\obj\Debug\GameXML.exe
+C:\Users\Roman\Documents\GitHub\GameXML\GameXML\obj\Debug\GameXML.pdb
+C:\Users\Roman\Documents\GitHub\GameXML\GameXML\bin\Debug\GameXML.exe
+C:\Users\Roman\Documents\GitHub\GameXML\GameXML\bin\Debug\GameXML.pdb
+C:\Users\Roman\Documents\GitHub\GameXML\GameXML\obj\Debug\GameXML.csprojResolveAssemblyReference.cache
